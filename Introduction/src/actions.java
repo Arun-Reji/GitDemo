@@ -17,6 +17,11 @@ public class actions {
 		System.out.println("a");
 		System.out.println("a");
 		System.out.println("a");
+		//
+		System.out.println("B");System.out.println("a");
+		System.out.println("C");
+		System.out.println("D");
+		System.out.println("a");
 		
 		a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).click().keyDown(Keys.SHIFT).sendKeys("hello Arun").doubleClick().build().perform();
 
